@@ -1,0 +1,760 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/* ----------- General ------------- */
+.main-color
+{
+    color: #e65f78 !important;
+}
+.main-bg-color
+{
+    background-color: #e65f78;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat', sans-serif;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body
+{
+    font-family: 'Nunito', sans-serif;
+}
+.header-description
+{
+    max-width: 550px;
+    line-height: 1.8;
+    margin: auto;
+} 
+
+
+/* ------------------ Home------------------------- */
+#home .nav-link
+{
+    color: black;
+    font-size: 1rem;
+    padding: 15px 12px;
+}
+#home .nav-link:hover
+{
+    color: #e65f78;
+}
+#home
+{
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    overflow:hidden;
+}
+#home .home-layer
+{ 
+ background-color: rgba(0, 0, 0, 0.61);
+
+}
+h1
+{
+    font-size: 4rem;
+    
+}
+#home h4
+{
+    font-size: 1.5rem;
+}
+#home p
+{
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+#home button
+{
+    padding: 12px 20px;
+    border :solid 2px #fff;
+    border-radius: 30px;
+    font-size: 18px;
+   
+}
+#home .setting-icon 
+{
+    font-size: 2rem;
+}
+#home button:hover
+{
+    color: black !important ;
+    background-color: white;
+}
+#home .setting-icon
+{
+    background-color: #2b2424;
+    color: #fff;
+    width:3%;
+    height:45px;
+    top: 20%;
+    left: 0px;
+    padding: 5px 4px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+     cursor: pointer;
+     -webkit-transition: background-color 1s  ;
+     -o-transition: background-color 1s  ;
+     transition: background-color 1s  ;
+}
+#home .up-icon
+{
+    background-color: #2b2424;
+    width:3%;
+    height:40px;
+    bottom: 2%;
+    right :25px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer; 
+    -webkit-transition: background-color 1s  ; 
+    -o-transition: background-color 1s  ; 
+    transition: background-color 1s  ;
+}
+#home .up-icon i
+{
+    font-size: 2rem;
+}
+#home .up-icon:hover i ,#home .setting-icon:hover i
+{
+    color: #e65f78 !important;
+}
+#home .up-icon:hover ,#home .setting-icon:hover
+{
+    background-color: #fff;
+}
+#home .navbar
+{
+z-index: 10000;
+}
+.down-icon
+{
+    
+    width:28px;
+    height: 8vh;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+    -webkit-animation-name: icon;
+            animation-name: icon;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    cursor: pointer;
+}
+.down-icon::after
+{
+    content: "";
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    width: 4px;
+    height: 8px;
+    background-color: #fff;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border-radius: 50%;
+}
+#home .dotted
+{
+    width: 3px;
+    height: 8px;
+    border-radius: 2px;
+    background-color: #fff;
+    top: 8px;
+}
+@-webkit-keyframes icon {
+    0%{top: 0px;}
+    20%{top: 10px;}
+    40%{top: 15px;}
+    60%{top: 20px;}
+    80%{top: 25px;}
+    100%{top:30px;}
+    
+}
+@keyframes icon {
+    0%{top: 0px;}
+    20%{top: 10px;}
+    40%{top: 15px;}
+    60%{top: 20px;}
+    80%{top: 25px;}
+    100%{top:30px;}
+    
+}
+#home h1:after
+{
+    content: "";
+    -webkit-animation-name: title;
+            animation-name: title;
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+
+}
+@-webkit-keyframes title
+{
+    0%{content: "Kerri Deo.";opacity: 0;} 
+    1.5%{content: "Kerri Deo.";opacity: 0.1;}
+    3%{content: "Kerri Deo.";opacity: 0.2;}
+    4.5%{content: "Kerri Deo.";opacity: 0.3;}
+    6%{content: "Kerri Deo.";opacity: 0.4;}
+    7.5%{content: "Kerri Deo.";opacity: 0.5;}
+    9%{content: "Kerri Deo.";opacity: 0.7;}
+    10.5%{content: "Kerri Deo.";opacity: 0.8;}
+    12%{content: "Kerri Deo.";opacity: 0.9;}
+    13.5%{content: "Kerri Deo.";opacity: 1;}
+    15%{content: "Kerri Deo.";opacity: 1;}
+    16.5%{content: "Kerri Deo.";opacity: 0.9;}
+    18%{content: "Kerri Deo.";opacity: 0.8;}
+    19.5%{content: "Kerri Deo.";opacity: 0.7;}
+    21%{content: "Kerri Deo.";opacity: 0.6;}
+    22.5%{content: "Kerri Deo.";opacity: 0.5;}
+    24%{content: "Kerri Deo.";opacity: 0.4;}
+    25.5%{content: "Kerri Deo.";opacity: 0.3;}
+    27%{content: "Kerri Deo.";opacity: 0.2;}
+    28.5%{content: "Kerri Deo.";opacity: 0.1;}
+    31.5%{content: " A Graphic Designer.";opacity: 0;}
+    33%{content: " A Graphic Designer.";opacity: 0.1;}
+    34.5%{content: " A Graphic Designer.";opacity: 0.2;}
+    36%{content: " A Graphic Designer.";opacity: 0.2;}
+    37.5%{content: " A Graphic Designer.";opacity: 0.3;}
+    39%{content: " A Graphic Designer.";opacity: 0.4;}
+    40.5%{content: " A Graphic Designer.";opacity: 0.5;}
+    42%{content: " A Graphic Designer.";opacity: 0.6;}
+    43.5%{content: " A Graphic Designer.";opacity: 0.7;}
+    45%{content: " A Graphic Designer.";opacity: 0.8;}
+    46.5%{content: " A Graphic Designer.";opacity: 0.9;}
+    48%{content: " A Graphic Designer.";opacity: 1;}
+    49.5%{content: " A Graphic Designer.";opacity: 1;}
+    51%{content: " A Graphic Designer.";opacity: 0.9;}
+    53.5%{content: " A Graphic Designer.";opacity: 0.8;}
+    55%{content: " A Graphic Designer.";opacity: 0.7;}
+    56.5%{content: " A Graphic Designer.";opacity: 0.6;}
+    57%{content: " A Graphic Designer.";opacity: 0.5;}
+    58.5%{content: " A Graphic Designer.";opacity: 0.4;}
+    60%{content: " A Graphic Designer.";opacity: 0.3;}
+    61.5%{content: " A Graphic Designer.";opacity: 0.2;}
+    63%{content: " A Graphic Designer.";opacity: 0.1;}
+    64.5%{content: "";opacity: 0;}  
+    66%{content: "A Photographer.";opacity: 0;}
+    67.5%{content: "A Photographer.";opacity: 0.1;}
+    69%{content: "A Photographer.";opacity: 0.2;}
+    70.5%{content: "A Photographer.";opacity: 0.2;}
+    71.5%{content: "A Photographer.";opacity: 0.3;}
+    73%{content: "A Photographer.";opacity: 0.4;}
+    75%{content: "A Photographer.";opacity: 0.5;}
+    78%{content: "A Photographer.";opacity: 0.6;}
+    80%{content: "A Photographer.";opacity: 0.7;}
+    81.5%{content: "A Photographer.";opacity: 0.8;}
+    83%{content: "A Photographer.";opacity: 0.9;}
+    84.5%{content: "A Photographer.";opacity: 1;}
+    86%{content: "A Photographer.";opacity: 1;}
+    87.5%{content: "A Photographer.";opacity: 0.9;}
+    89%{content: "A Photographer.";opacity: 0.8;}
+    90.5%{content: "A Photographer.";opacity: 0.7;}
+    92%{content: "A Photographer.";opacity: 0.6;}
+    93.5%{content: "A Photographer.";opacity: 0.5;}
+    95%{content: "A Photographer.";opacity: 0.4;}
+    96.5%{content: "A Photographer.";opacity: 0.3;}
+    98%{content: "A Photographer.";opacity: 0.2;}
+    99%{content: "A Photographer.";opacity: 0.1;}
+    100%{content: "";opacity: 1;}
+
+}
+@keyframes title
+{
+    0%{content: "Kerri Deo.";opacity: 0;} 
+    1.5%{content: "Kerri Deo.";opacity: 0.1;}
+    3%{content: "Kerri Deo.";opacity: 0.2;}
+    4.5%{content: "Kerri Deo.";opacity: 0.3;}
+    6%{content: "Kerri Deo.";opacity: 0.4;}
+    7.5%{content: "Kerri Deo.";opacity: 0.5;}
+    9%{content: "Kerri Deo.";opacity: 0.7;}
+    10.5%{content: "Kerri Deo.";opacity: 0.8;}
+    12%{content: "Kerri Deo.";opacity: 0.9;}
+    13.5%{content: "Kerri Deo.";opacity: 1;}
+    15%{content: "Kerri Deo.";opacity: 1;}
+    16.5%{content: "Kerri Deo.";opacity: 0.9;}
+    18%{content: "Kerri Deo.";opacity: 0.8;}
+    19.5%{content: "Kerri Deo.";opacity: 0.7;}
+    21%{content: "Kerri Deo.";opacity: 0.6;}
+    22.5%{content: "Kerri Deo.";opacity: 0.5;}
+    24%{content: "Kerri Deo.";opacity: 0.4;}
+    25.5%{content: "Kerri Deo.";opacity: 0.3;}
+    27%{content: "Kerri Deo.";opacity: 0.2;}
+    28.5%{content: "Kerri Deo.";opacity: 0.1;}
+    31.5%{content: " A Graphic Designer.";opacity: 0;}
+    33%{content: " A Graphic Designer.";opacity: 0.1;}
+    34.5%{content: " A Graphic Designer.";opacity: 0.2;}
+    36%{content: " A Graphic Designer.";opacity: 0.2;}
+    37.5%{content: " A Graphic Designer.";opacity: 0.3;}
+    39%{content: " A Graphic Designer.";opacity: 0.4;}
+    40.5%{content: " A Graphic Designer.";opacity: 0.5;}
+    42%{content: " A Graphic Designer.";opacity: 0.6;}
+    43.5%{content: " A Graphic Designer.";opacity: 0.7;}
+    45%{content: " A Graphic Designer.";opacity: 0.8;}
+    46.5%{content: " A Graphic Designer.";opacity: 0.9;}
+    48%{content: " A Graphic Designer.";opacity: 1;}
+    49.5%{content: " A Graphic Designer.";opacity: 1;}
+    51%{content: " A Graphic Designer.";opacity: 0.9;}
+    53.5%{content: " A Graphic Designer.";opacity: 0.8;}
+    55%{content: " A Graphic Designer.";opacity: 0.7;}
+    56.5%{content: " A Graphic Designer.";opacity: 0.6;}
+    57%{content: " A Graphic Designer.";opacity: 0.5;}
+    58.5%{content: " A Graphic Designer.";opacity: 0.4;}
+    60%{content: " A Graphic Designer.";opacity: 0.3;}
+    61.5%{content: " A Graphic Designer.";opacity: 0.2;}
+    63%{content: " A Graphic Designer.";opacity: 0.1;}
+    64.5%{content: "";opacity: 0;}  
+    66%{content: "A Photographer.";opacity: 0;}
+    67.5%{content: "A Photographer.";opacity: 0.1;}
+    69%{content: "A Photographer.";opacity: 0.2;}
+    70.5%{content: "A Photographer.";opacity: 0.2;}
+    71.5%{content: "A Photographer.";opacity: 0.3;}
+    73%{content: "A Photographer.";opacity: 0.4;}
+    75%{content: "A Photographer.";opacity: 0.5;}
+    78%{content: "A Photographer.";opacity: 0.6;}
+    80%{content: "A Photographer.";opacity: 0.7;}
+    81.5%{content: "A Photographer.";opacity: 0.8;}
+    83%{content: "A Photographer.";opacity: 0.9;}
+    84.5%{content: "A Photographer.";opacity: 1;}
+    86%{content: "A Photographer.";opacity: 1;}
+    87.5%{content: "A Photographer.";opacity: 0.9;}
+    89%{content: "A Photographer.";opacity: 0.8;}
+    90.5%{content: "A Photographer.";opacity: 0.7;}
+    92%{content: "A Photographer.";opacity: 0.6;}
+    93.5%{content: "A Photographer.";opacity: 0.5;}
+    95%{content: "A Photographer.";opacity: 0.4;}
+    96.5%{content: "A Photographer.";opacity: 0.3;}
+    98%{content: "A Photographer.";opacity: 0.2;}
+    99%{content: "A Photographer.";opacity: 0.1;}
+    100%{content: "";opacity: 1;}
+
+}
+/*  About Css code  */
+#about .about-content h2
+{
+    font-size: 2rem;
+}
+#about .about-content p
+{
+    font-size: 1.1rem;
+}
+#about .about-content h4
+{
+     font-size: 1.5rem;
+     font-weight: 600;
+}
+#about   i
+{
+    font-size:1.5rem;
+    padding: 14px 14px;
+    color: #000;
+    border: 2px solid #858b90;
+    border-radius: 50%;
+   
+    -webkit-transition: color 0.5s , border 0.5s ;
+   
+    -o-transition: color 0.5s , border 0.5s ;
+   
+    transition: color 0.5s , border 0.5s ;
+}
+#about i:hover
+{
+    color: #e65f78;
+    border: 2px solid #e65f78;
+    cursor: pointer;
+}
+
+/* ---------- Services  Css Code ------ -------- */
+#services .header-description
+{
+    font-size: 1.2rem ;
+    max-width: 550px;
+    
+}
+.Sections-header
+{
+    font-size: 2.6rem ;
+    font-weight: 600;
+    -webkit-column-rule: #000;
+       -moz-column-rule: #000;
+            column-rule: #000;
+
+}
+.header-span
+{
+    font-size: 2.8rem;
+}
+.services-item  i
+{
+  font-size: 3rem;
+  padding: 15px;
+  color: #e65f78;
+}
+.services-item
+{
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+.services-item h3
+{
+    padding: 15px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    position: relative;
+    
+}
+.services-item h3:after
+{
+    content: "";
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    width: 3.5rem;
+    height: 3px;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background-color: #e65f78;
+    -webkit-transition: width 0.5s;
+    -o-transition: width 0.5s;
+    transition: width 0.5s;
+    
+}
+.services-item:hover h3:after
+{
+       width: 6rem;
+}
+
+.services-item p
+{
+font-size: 1.3rem;
+padding: 15px 0px;
+;
+}
+.services-footer h3
+{
+ font-size: 2.6rem;
+ color: black;
+}
+.services-footer button
+  { background-color: #e65f78;
+    color: #fff !important;
+    font-size: 1.2rem ;
+  
+    padding: 1rem 2.7rem;
+}
+.header-p
+{
+    font-size:1.2rem ;
+}
+
+/*  Client Css Code */
+
+.cilet-items img
+{
+    border-radius: 50%;
+    width: 12%;
+    margin: 10px;
+    
+}
+
+.cilet-items p
+{
+
+  font-size: 20px;
+  padding: 10px 15px;
+   max-width: 700px;
+   font-style: italic !important;
+
+}
+.carousel-indicators button
+{
+   
+    background-color: #000 !important;
+}
+/*  work css Code  */
+
+#ourwork .nav-tabs ,#ourwork button
+{
+    border: unset;
+    color: #000;
+    font-size: 1.5rem;
+    margin: 5px 5px;
+    border-radius: 2rem;
+}
+#ourwork button:hover 
+{
+    background-color: #e65f78;
+    color: #fff;
+}
+#ourwork ul
+{
+    width: 50%;
+}
+#ourwork ul button
+{
+    text-transform: uppercase ;
+    font-size: 1.2rem !important;
+}
+#ourwork .work-items
+{
+    position: relative;
+    overflow: hidden;
+}
+
+#ourwork .caption-text
+{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 96%;
+    height: 100%;  
+    border-radius: 5px;
+    -webkit-transition:  top 0.3s 0.1s;
+    -o-transition:  top 0.3s 0.1s;
+    transition:  top 0.3s 0.1s;
+    -webkit-transform: translateX(9px);
+        -ms-transform: translateX(9px);
+            transform: translateX(9px);
+}
+#ourwork .work-items:hover .caption-text
+{
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.88);
+}
+
+#ourwork .work-items img
+{
+     border-radius: 5px;
+    
+}
+
+
+
+#ourWork .main-btn
+{
+    background-color: #e65f78;
+    color: #fff;
+}
+#ourWork .branch-btn:hover .main-btn
+{
+    background-color: #fff !important ;
+    color: #000 !important;
+}
+/*  --------------- our blog Css code ---------------------- */
+.blog-item img
+{
+    border-radius: 5px;
+}
+#blog .blog-item 
+{
+    border-radius: 6px;
+}
+#blog .blog-image
+{
+    width: 85%;
+    border-radius: 5px;
+}
+.blog-details h4
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+     color: #000;
+    padding: 10px 50px 10px 15px;
+}
+.blog-details p 
+{
+    font-size: 1.3rem;
+    padding-left: 15px;
+   
+}
+.blog-details span
+{
+    font-size: 1.3rem;
+    padding-left: 5px;
+   
+}
+
+ /* --------------contact css code  ----------------- */
+ #contact .header h2
+ {
+     font-size: 2.8rem !important;
+     font-weight: 600;
+     color: #000;
+ }
+ #contact .header  span
+ {
+    font-size: 2.3rem !important;
+   
+    color: #000;
+ }
+
+ #contact .contact-details h4
+ {
+     font-size: 1.5rem;
+     font-weight: 900;
+     color: #000;
+
+ }
+ #contact .contact-details p
+ {
+     font-size: 1.3rem;
+
+ }
+.contact-form .form-control
+{
+     font-size: 1.3rem ;
+     color: #232425;
+     padding: 1rem;
+     line-height: 1.6;
+     border: 2px solid rgb(224, 224, 224);
+     margin-bottom: 1rem;
+   
+}
+.contact-form button
+{
+   font-size: 1.2rem;
+   
+    padding: 13px 25px ;
+}
+/* ------------------- */
+footer
+{
+    background-color: rgb(33,33,33);
+    padding: 6rem 0px;
+}
+footer i
+{ 
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin: 10px 20px;
+    background-color: rgba(241, 241, 241, 0.08);
+    padding: 15px ;
+    border-radius: 50%;
+    color: rgb(171, 171, 171);
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+}
+footer i:hover
+{
+    color: #e65f78;
+}
+footer p
+{
+    color: rgb(171, 171, 171);
+    font-size:1.3rem;
+}
+/* -------------media Query---------------- */
+
+
+@media screen and (max-width:1200px) {
+    #ourwork ul 
+    {
+        width: 100% !important;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    #ourwork .caption-text
+    {
+        width: 98.5%;
+     -webkit-transform: translateX(8px);
+         -ms-transform: translateX(8px);
+             transform: translateX(8px);;
+    }
+    
+}
+@media screen  and (max-width:992px)
+{
+    #home .setting-icon ,#home .up-icon
+    {
+        width:3rem;
+    }
+    #about {
+        text-align: center;
+    }
+    .cilet-items img
+    {
+        width: 18%;
+    }
+   
+    
+    #ourwork .caption-text
+{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width:97.5%;
+    height: 100%;  
+    border-radius: 5px;
+    -webkit-transition:  top 0.3s 0.1s;
+    -o-transition:  top 0.3s 0.1s;
+    transition:  top 0.3s 0.1s;
+    -webkit-transform: translateX(9px);
+        -ms-transform: translateX(9px);
+            transform: translateX(9px);
+}
+}
+@media screen  and (max-width:768px)
+{
+
+    #ourwork .caption-text
+    {
+        width: 96.5%;
+     -webkit-transform: translateX(9px);
+         -ms-transform: translateX(9px);
+             transform: translateX(9px);;
+       
+    }
+}
+   
+
+
+@media screen  and (max-width:576px) 
+{
+    #home .setting-icon ,#home .up-icon
+    {
+        width:3rem;
+    }
+    #about {
+        text-align: center;
+    }
+    .cilet-items img
+    {
+        width: 22%;
+    }
+  
+}
+@media screen and (min-width: 1200px)
+{
+    .container {
+        max-width: 1200px !important;
+    }
+}
